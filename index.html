@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raktamitra</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Redressed&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div id="navbar">
+            <div id="app-name">
+                <a href="javascript:void(0)" onclick="openNav()"><i id="hamburger" class="fa-solid fa-bars"></i></a>
+                RaktaMitra
+            </div>
+            <div id="nav-gap"></div>
+            <div id="nav-sec2">
+                <div class="nav"><a href="index.html">Home</a></div>
+                <div class="nav"><a href="#footer">About us</a></div>
+                <div class="nav"><a href="#faq">FAQ</a></div>
+                <div id="login-sign-but">
+                    <button id="login-signup-but"><a href="login.html">Log In</a> / <a href="Registration.html">Sign Up</a></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Side bar -->
+    <div id="side-nav" class="side-nav">
+        <div class="side-nav-top">
+            <h3 class="side-nav-title">RaktaMitra</h3>
+        </div>
+        <a href="viewProfile.html"><i class="fa-solid fa-user"></i> View Profile</a>
+        <a href="generateRequest.html"><i class="fa-solid fa-hand-holding-medical"></i> Request Blood</a>
+        <a href="#footer"><i class="fa-solid fa-info-circle"></i> About Us</a>
+        <a href="#"><i class="fa-solid fa-sign-out-alt"></i> Sign Out</a>
+    </div>
+    <!-- Sections -->
+    <section>
+        <div id="home-section1">
+            <div id="home-div1">
+                <h1 id="home-para-heading">Saving Lives, One Drop at a Time</h1>
+                <br>
+                <p id="home-para1">Welcome to RaktaMitra, a platform connecting blood donors and recipients in real time. Together, we can ensure that no one has to wait for life-saving blood when it matters the most.
+                </p>
+                <br>
+                <button id="request-blood"><a href="generateRequest.html">Request Blood</a></button>
+            </div>
+
+            <div id="home-div2">
+                <picture>
+                    <img id="home-image" src="Images/image.png" alt="Blood donation image" >
+                </picture>
+            </div>
+        </div>
+    </section>
+    <section>
+        <figure>
+            <img id="home-stats" src="Images/stats.png" alt="stats" >
+        </figure>
+    </section>
+    <section id="reasons-section">
+        <h2>Four reasons why you should donate blood</h2>
+        <div class="reasons-container">
+            <div class="reason-item">
+                <img class="reason-images" src="Images/hand-drawn-blood-cartoon-illustration_23-2150682068.jpg" alt="Development of new red blood cells">
+                <h3>Development of new red blood cells</h3>
+                <p>Within the first 48 hours of blood donation, the donor's body starts replenishing the lost red blood cells. The replenishment process helps in staying healthy and productive at work.</p>
+            </div>
+            <div class="reason-item">
+                <img class="reason-images"  src="Images/human-blood-donate-white-background_1308-111085.jpg" alt="Reducing risk of heart disease">
+                <h3>Reducing risk of heart disease</h3>
+                <p>As per several studies and reports, when there is a rise in the iron level in blood, it raises the chances of heart diseases. People should donate blood from time to time in order to reduce the iron level in the blood.</p>
+            </div>
+            <div class="reason-item">
+                <img class="reason-images"  src="Images/burn-calories.avif" alt="Burns calories">
+                <h3>Burns calories</h3>
+                <p>Donating blood can burn approximately 650 calories for each pint that is like 450 ml of blood.</p>
+            </div>
+            <div class="reason-item">
+                <img class="reason-images"  src="Images/blood-test.avif" alt="Free blood test">
+                <h3>Free blood test</h3>
+                <p>On donating blood, the donor receives a free mini health screening and blood tests.</p>
+            </div>
+        </div>
+    </section>
+    <!-- <section id="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq">
+            <h3>Five Reasons Why You Should Donate Blood</h3>
+            <ol>
+                <li><strong>Development of new red blood cells:</strong> Within the first 48 hours of blood donation, the donor's body starts replenishing the lost red blood cells. The replenishment process helps in staying healthy and productive at work.</li>
+                <li><strong>Reducing risk of heart disease:</strong> As per several studies and reports, when there is a rise in the iron level in blood, it raises the chances of heart diseases. People should donate blood from time to time in order to reduce the iron level in the blood.</li>
+                <li><strong>Burns calories:</strong> Donating blood can burn approximately 650 calories for each pint that is like 450 ml of blood.</li>
+                <li><strong>Free blood test:</strong> On donating blood, the donor receives a free mini health screening and blood tests.</li>
+                <li><strong>How often can one donate blood?</strong> The minimum time advised between two donations is 3 months. This gap helps blood regain the normal haemoglobin count.</li>
+            </ol>
+            <h3>Who can donate blood</h3>
+            <p>The age of the donor must be above 18 years and below 65 years of age. He/she must have a haemoglobin count that is not less than 12.5 g/dl. The weight should not be less than 45 kgs. One should have a normal body temperature at the time of donation.</p>
+            <p>You should always drink lots of water before the donation. Also, keep in mind that you should take a well-balanced meal prior to and after donating blood. This will keep you healthy and fit.</p>
+        </div>
+    </section>
+    <section id="motivation-section">
+        <div class="motivation">
+            <h3>Benefits of Donating Blood</h3>
+            <ul list-style-type="list-style-type:disc">
+                <li>The most precious gift that one can give to another person is the gift of life i.e. blood. It is the essence of life.</li>
+                <br>
+                <li>Your blood saves more than one life when it is separated into its components (red blood cells, plasma etc.).</li>
+                <br>
+                <li>Blood is needed regularly for patients with diseases such as thalassemia and hemophilia, and also for the treatment of injuries after an accident, major surgeries, anemia, etc.</li>
+                
+            </ul>
+        </div>
+        <div class="motivation">    
+            <h3>Less likely to suffer diseases</h3>
+            <p># Did you know that people who donate blood are 88% less likely to suffer a heart attack and 33% less likely to acquire any type of cardiovascular disease.</p>
+            <p># When you donate blood, it removes 225 to 250 milligrams of iron from your body, hence reducing the risk of heart disease.</p>
+            <p># Blood Center performs numerous tests on the donated blood. Therefore regular blood donation helps in shielding you from serious diseases.</p>
+
+            <h3>Facts About Blood</h3>
+            <p># One unit of donated blood can save up to three lives.</p>
+            <p># You can donate blood every three months. It only takes 48 hours for your body fluids to be completely replenished.</p>
+            <p># Scientists have estimated the volume of blood in the human body to be eight percent of body weight.</p>
+            <p># There are 100,000 miles of blood vessels in an adult human body.</p>
+            <p># A red blood cell can make a complete circuit of your body in 30 seconds.</p>
+            <p># White blood cells make up about 1% of your blood.</p>
+            
+            <h3>Stats about Blood</h3>
+            <p># According to a 2012 World Health Organisation (WHO) report, only nine million units are collected annually, while the need is for 12 million units.</p>
+            <p># Delhi NCR alone faces a shortage of 100,000 units per year.</p>
+            <p># The shelf-life of donated blood is 35 to 42 days. There is a constant need to replenish stocks in our blood banks.</p>
+            <p># Healthy donors are between the age of 18 to 65 years.</p>
+            <p># Statistics show that there are 234 million major operations in India, 63 million trauma-induced surgeries, 31 million cancer-related procedures and 10 million pregnancy related complications which require blood transfusions.</p>
+        </div>
+    </section> -->
+    <!-- <section class="section motivation">
+        <h2>Why Donate Blood?</h2>
+        <div class="flex-container">
+            <div class="flex-item">
+                <h3>1. Develop New Blood Cells</h3>
+                <p>Within 48 hours of donation, your body starts replenishing red blood cells, keeping you healthy and active.</p>
+            </div>
+            <div class="flex-item">
+                <h3>2. Reduce Risk of Heart Disease</h3>
+                <p>Regular blood donation lowers iron levels in the body, reducing the chances of heart diseases.</p>
+            </div>
+            <div class="flex-item">
+                <h3>3. Burn Calories</h3>
+                <p>Donating 450 ml of blood can burn up to 650 calories, helping you stay fit.</p>
+            </div>
+            <div class="flex-item">
+                <h3>4. Fre Checkup</h3>
+                <p>Each donation includes a free mini health screening and blood test.</p>
+            </div>
+            <div class="flex-item">
+                <h3>5. Save Lives</h3>
+                <p>Your donation can save up to three lives by separating it into red blood cells, plasma, and more.</p>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <h2>Interesting Facts About Blood</h2>
+        <div class="flex-container">
+            <div class="flex-item">
+                <h3>Volume in the Body</h3>
+                <p>Blood makes up 8% of body weight. An adult has 100,000 miles of blood vessels.</p>
+            </div>
+            <div class="flex-item">
+                <h3>Red Blood Cells</h3>
+                <p>A red blood cell completes a full circuit of the body in just 30 seconds.</p>
+            </div>
+            <div class="flex-item">
+                <h3>White Blood Cells</h3>
+                <p>White blood cells make up only 1% of total blood but are crucial for immunity.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <!-- <section class="section faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="flex-container">
+            <div class="flex-item">
+                <h3>Who can donate blood?</h3>
+                <p>Donors must be 18-65 years old, weigh at least 45 kg, and have a hemoglobin count of 12.5 g/dl or more.</p>
+            </div>
+            <div class="flex-item">
+                <h3>How often can I donate?</h3>
+                <p>You can donate blood every three months to allow your body to restore hemoglobin levels.</p>
+            </div>
+            <div class="flex-item">
+                <h3>What should I do before donating?</h3>
+                <p>Drink plenty of water and have a balanced meal before and after donation to stay healthy.</p>
+            </div>
+        </div>
+    </section> -->
+    <section class="section-last">
+        <img id="home-image-last" src="Images/home-image-last.png" alt="Blood donation awareness banner">
+        
+        <div>
+            <h2 id="section-last-heading">Be a Hero. Donate Blood!</h2>
+        <p id="section-last-para">The most precious gift you can give is the gift of life. Join us in saving lives through blood donation. It is quick, safe, and invaluable to those in need.</p>
+        </div>
+        
+    </section>
+
+    <footer id="footer">
+        <div class="footer-nav">
+            <p class="footer-heading">NAVIGATION</p>
+            <ul type="none" class="footer-list ">
+              <li class=" mr-4 compact"><a class="color-dark f-14" href="./index.html">Home</a></li>
+              <li class=" mr-4 compact"><a class="color-dark f-14" href="./about-us.html">About us</a></li>
+              <li class=" mr-4 compact"><a class="color-dark f-14" href="./our-team.html">Our team</a></li>
+              <li class=" mr-4 compact"><a class="color-dark f-14" href="./sponsor.html">Donate now</a></li>
+              <li class=" mr-4 compact"><a class="color-dark f-14" href="./join-us-selection.html">Join us</a></li>
+              <li class=" mr-4 compact"><a class="color-dark f-14" href="./contact-us.html">Contact us</a></li>
+            </ul>
+        </div>
+        <hr>
+        <p class="copyright">&copy; 2024 RaktaMitra. All rights reserved.</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

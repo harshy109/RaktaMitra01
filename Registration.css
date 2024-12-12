@@ -1,0 +1,200 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+/* #dashboard-pop{
+    height: 50px;
+    width: 20px;
+}
+#app-name{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-family: 'Redressed', cursive ; 
+   
+}
+#app-name i {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+}
+#app-name a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    height: 52px;
+    width: 100%;
+    background-color: #ab2020;
+    color: white;
+    padding: 6px 0px;
+
+}
+#nav-sec2{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: end;
+    padding-right: 8px;
+}
+#login-signup-but{
+    font-size: 20px;
+    height: 35px;
+    width: 160px;
+    background-color: white;
+    color: #ab2020;
+    border-radius: 5px;
+    border: none;
+}
+#login-signup-but a{
+    color: #ab2020;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#login-signup-but a:hover{
+    text-decoration: underline;
+    font-weight: 700;
+}
+.nav{
+    display: flex;
+    margin: 0 10px;
+    padding-left:10px ;
+    padding-right: 10px;
+    width: 100px; 
+    text-align: center;
+    justify-content: center;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+} */
+
+/* Header */
+.header {
+    background-color: #b32020;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    
+}
+
+.header h1 {
+    font-size: 1.8em;
+}
+
+/* Main Container */
+.container {
+    
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styling */
+.registration-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #9c2727;
+}
+
+.registration-form label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.registration-form input,
+.registration-form select,
+.registration-form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.registration-form input:focus,
+.registration-form select:focus,
+.registration-form textarea:focus {
+    border-color: #6c63ff;
+    outline: none;
+}
+
+.registration-form button {
+    padding: 10px;
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.registration-form button:hover {
+    background-color: #4f4cb2;
+}
+/* .side-nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ab2020;
+    color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.side-nav-top{
+    background-color: white;
+    color: #ab2020;
+}
+
+.side-nav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.side-nav a:hover {
+    color: #f1f1f1;
+}
+
+.side-nav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    background-color: #ab2020;
+    color: white;
+}
+
+.side-nav-title {
+    font-family: 'Redressed', cursive;
+    font-size: 35px;
+    font-weight: bold;
+    /* color: white; 
+    margin-bottom: 20px;
+    padding-left: 25px;
+} */
